@@ -38,26 +38,4 @@ This function solves the Sudoku puzzle using a recursive backtracking algorithm.
 
 To use the Sudoku solver, you can create a Sudoku grid as a 9x9 list of lists, where empty cells are represented by 0. Then, call the `solve` function with the grid and the initial position (0, 0). If a solution is found, the solved grid will be printed. Otherwise, a message indicating no solution will be displayed.
 
-Example:
-
-```python
-grid = [[0, 0, 0, 0, 0, 0, 6, 8, 0],
-        [0, 0, 0, 0, 7, 3, 0, 0, 0],
-        [3, 0, 9, 0, 0, 0, 0, 4, 5],
-        [4, 9, 0, 0, 0, 0, 0, 0, 0],
-        [8, 0, 3, 0, 5, 0, 9, 0, 2],
-        [0, 0, 0, 0, 0, 0, 0, 3, 6],
-        [9, 6, 0, 0, 0, 0, 3, 0, 8],
-        [7, 0, 0, 6, 8, 0, 0, 0, 0],
-        [0, 2, 8, 0, 0, 0, 0, 0, 0]]
-
-if solve(grid, 0, 0):
-    for i in range(9):
-        for j in range(9):
-            print(grid[i][j], end=" ")
-        print()
-else:
-    print("No solution for this Sudoku.")
-```
-
-This will output the solved Sudoku grid if a solution is found, or a message indicating no solution if no valid solution exists for the given puzzle.
+id if a solution is found, or a message indicating no solution if no valid solution exists for the given puzzle.
